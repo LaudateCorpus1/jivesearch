@@ -14,24 +14,27 @@ github.com/antchfx/xmlquery
 github.com/antchfx/xpath
 # github.com/argusdusty/Ferret v0.0.0-20190219174538-14de0b6c0445
 github.com/argusdusty/Ferret
+# github.com/aymerick/douceur v0.2.0
+github.com/aymerick/douceur/css
+github.com/aymerick/douceur/parser
 # github.com/disintegration/imaging v1.3.0
 github.com/disintegration/imaging
 # github.com/dsnet/compress v0.0.1
+github.com/dsnet/compress
 github.com/dsnet/compress/bzip2
 github.com/dsnet/compress/bzip2/internal/sais
 github.com/dsnet/compress/internal
 github.com/dsnet/compress/internal/errors
 github.com/dsnet/compress/internal/prefix
-github.com/dsnet/compress
 # github.com/dustin/go-humanize v1.0.0
 github.com/dustin/go-humanize
 # github.com/evanoberholster/timezoneLookup v0.0.0-20181028095704-4a3a5b71a424
 github.com/evanoberholster/timezoneLookup
-# github.com/fsnotify/fsnotify v1.4.7
+# github.com/fsnotify/fsnotify v1.4.9
 github.com/fsnotify/fsnotify
 # github.com/garyburd/redigo v1.6.0
-github.com/garyburd/redigo/redis
 github.com/garyburd/redigo/internal
+github.com/garyburd/redigo/redis
 # github.com/go-redis/redis v6.15.2+incompatible
 github.com/go-redis/redis
 github.com/go-redis/redis/internal
@@ -43,36 +46,38 @@ github.com/go-redis/redis/internal/util
 # github.com/gobwas/glob v0.2.3
 github.com/gobwas/glob
 github.com/gobwas/glob/compiler
-github.com/gobwas/glob/syntax
 github.com/gobwas/glob/match
+github.com/gobwas/glob/syntax
 github.com/gobwas/glob/syntax/ast
-github.com/gobwas/glob/util/runes
 github.com/gobwas/glob/syntax/lexer
+github.com/gobwas/glob/util/runes
 github.com/gobwas/glob/util/strings
 # github.com/gocolly/colly v1.2.0
 github.com/gocolly/colly
-github.com/gocolly/colly/queue
 github.com/gocolly/colly/debug
+github.com/gocolly/colly/queue
 github.com/gocolly/colly/storage
 # github.com/gocolly/redisstorage v0.0.0-20180819125329-cc8d514304a2
 github.com/gocolly/redisstorage
-# github.com/golang/protobuf v1.0.0
+# github.com/golang/protobuf v1.5.2
 github.com/golang/protobuf/proto
 # github.com/golang/snappy v0.0.1
 github.com/golang/snappy
+# github.com/gorilla/css v1.0.0
+github.com/gorilla/css/scanner
 # github.com/gorilla/mux v1.7.0
 github.com/gorilla/mux
 # github.com/gregjones/httpcache v0.0.0-20171119193500-2bcd89a1743f
 github.com/gregjones/httpcache
 # github.com/hashicorp/hcl v1.0.0
 github.com/hashicorp/hcl
-github.com/hashicorp/hcl/hcl/printer
 github.com/hashicorp/hcl/hcl/ast
 github.com/hashicorp/hcl/hcl/parser
-github.com/hashicorp/hcl/hcl/token
-github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/hcl/printer
 github.com/hashicorp/hcl/hcl/scanner
 github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
 github.com/hashicorp/hcl/json/scanner
 github.com/hashicorp/hcl/json/token
 # github.com/inconshreveable/mousetrap v1.0.0
@@ -88,11 +93,12 @@ github.com/lib/pq/oid
 github.com/magiconair/properties
 # github.com/mailru/easyjson v0.0.0-20190312143242-1de009706dbe
 github.com/mailru/easyjson
+github.com/mailru/easyjson/buffer
 github.com/mailru/easyjson/jlexer
 github.com/mailru/easyjson/jwriter
-github.com/mailru/easyjson/buffer
-# github.com/microcosm-cc/bluemonday v1.0.2
+# github.com/microcosm-cc/bluemonday v1.0.20
 github.com/microcosm-cc/bluemonday
+github.com/microcosm-cc/bluemonday/css
 # github.com/mitchellh/mapstructure v1.1.2
 github.com/mitchellh/mapstructure
 # github.com/muesli/smartcrop v0.0.0-20171215203440-9032446b30f6
@@ -145,10 +151,10 @@ github.com/tdewolff/minify/js
 # github.com/tdewolff/parse v2.3.4+incompatible
 github.com/tdewolff/parse
 github.com/tdewolff/parse/buffer
-github.com/tdewolff/parse/strconv
 github.com/tdewolff/parse/css
 github.com/tdewolff/parse/html
 github.com/tdewolff/parse/js
+github.com/tdewolff/parse/strconv
 # github.com/temoto/robotstxt v0.0.0-20180810133444-97ee4a9ee6ea
 github.com/temoto/robotstxt
 # github.com/vmihailenco/msgpack v4.0.4+incompatible
@@ -157,56 +163,87 @@ github.com/vmihailenco/msgpack/codes
 # go.etcd.io/bbolt v1.3.2
 go.etcd.io/bbolt
 # golang.org/x/image v0.0.0-20171214225156-12117c17ca67
-golang.org/x/image/tiff
-golang.org/x/image/webp
 golang.org/x/image/bmp
 golang.org/x/image/draw
-golang.org/x/image/tiff/lzw
+golang.org/x/image/math/f64
 golang.org/x/image/riff
+golang.org/x/image/tiff
+golang.org/x/image/tiff/lzw
 golang.org/x/image/vp8
 golang.org/x/image/vp8l
-golang.org/x/image/math/f64
-# golang.org/x/net v0.0.0-20190328230028-74de082e2cca
-golang.org/x/net/publicsuffix
+golang.org/x/image/webp
+# golang.org/x/net v0.7.0
+golang.org/x/net/context
 golang.org/x/net/html
 golang.org/x/net/html/atom
 golang.org/x/net/html/charset
-golang.org/x/net/context
-# golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a
+golang.org/x/net/publicsuffix
+# golang.org/x/sys v0.5.0
+golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/text v0.3.0
-golang.org/x/text/language
-golang.org/x/text/internal/tag
-golang.org/x/text/transform
-golang.org/x/text/unicode/norm
+# golang.org/x/text v0.7.0
 golang.org/x/text/encoding
 golang.org/x/text/encoding/charmap
 golang.org/x/text/encoding/htmlindex
-golang.org/x/text/encoding/internal/identifier
 golang.org/x/text/encoding/internal
+golang.org/x/text/encoding/internal/identifier
 golang.org/x/text/encoding/japanese
 golang.org/x/text/encoding/korean
 golang.org/x/text/encoding/simplifiedchinese
 golang.org/x/text/encoding/traditionalchinese
 golang.org/x/text/encoding/unicode
+golang.org/x/text/internal/language
+golang.org/x/text/internal/language/compact
+golang.org/x/text/internal/tag
 golang.org/x/text/internal/utf8internal
+golang.org/x/text/language
 golang.org/x/text/runes
+golang.org/x/text/transform
+golang.org/x/text/unicode/norm
 # google.golang.org/appengine v0.0.0-20171212223047-5bee14b453b4
-google.golang.org/appengine/urlfetch
+google.golang.org/appengine
 google.golang.org/appengine/datastore
 google.golang.org/appengine/internal
-google.golang.org/appengine/internal/urlfetch
-google.golang.org/appengine
-google.golang.org/appengine/internal/datastore
-google.golang.org/appengine/internal/base
-google.golang.org/appengine/internal/log
-google.golang.org/appengine/internal/remote_api
 google.golang.org/appengine/internal/app_identity
+google.golang.org/appengine/internal/base
+google.golang.org/appengine/internal/datastore
+google.golang.org/appengine/internal/log
 google.golang.org/appengine/internal/modules
+google.golang.org/appengine/internal/remote_api
+google.golang.org/appengine/internal/urlfetch
+google.golang.org/appengine/urlfetch
+# google.golang.org/protobuf v1.28.0
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genid
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/order
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protodesc
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
+google.golang.org/protobuf/types/descriptorpb
 # gopkg.in/DATA-DOG/go-sqlmock.v2 v2.0.0-20180914054222-c19298f520d0
 gopkg.in/DATA-DOG/go-sqlmock.v2
-# gopkg.in/yaml.v2 v2.2.2
+# gopkg.in/yaml.v2 v2.4.0
 gopkg.in/yaml.v2
 # willnorris.com/go/gifresize v1.0.0
 willnorris.com/go/gifresize
